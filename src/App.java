@@ -71,9 +71,13 @@ public void start(Stage stage) {
            textFieldAns.setText(String.valueOf(number));
       }
    }
-   
-   
    );
+btnClear.setOnAction( event->{
+    textFieldAns.clear();
+    textFieldQues.clear();
+});
+   
+ 
 
    //Creating a scene object 
    Scene scene = new Scene(gridPane); 
